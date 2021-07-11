@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+body{
+    background-color: black;
+    font-family: 'Aldrich';
+}
+label {
+    color: white;
+    font-size: large;
+}
+
+input[type=text] {
+    width: 25%;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  form {
+    text-align: center;
+  }

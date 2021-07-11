@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<div style="text-align: center;">
+    <img src="static/favi.png" class="logo">
+    <h1> The (De)Encrypter </h1>
+</div>    
+{% endblock %}
+
+{% block body %} 
+
+<form action="/" method="POST">
+    <label for="sk">Secret Key:</label> 
+    <input type="text" name="Secret Key" id="sk">
+     <br>
+
+    <label for="vc">Target Value:</label>
+    <input type="text" name="Target Value" id="vc">
+    <br>
+    <br>
+
+    
+    <label for ="Codec"> Codec</label>
+    <input type = 'radio' name = "TYPE" value="C"> 
+    &emsp;
+    &emsp;    
+    <label for ="De-Codec"> De-Codec</label>
+    <input type = 'radio' name = "TYPE" value="D"> 
+    
+    <br>
+    <br>
+    <input type= "submit" name=Submit>
+
+</form>
+{% endblock %}
+
